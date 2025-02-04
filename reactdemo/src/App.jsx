@@ -62,7 +62,7 @@ function App() {
     // Fetch URL will change based on the environment (production or development)
     const apiUrl =
       process.env.NODE_ENV === "production"
-        ? "/api/chat"
+        ? "/api/chat.js"
         : "http://localhost:5001/api/chat";
 
     // Sending the request to the backend
